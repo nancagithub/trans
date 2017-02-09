@@ -1,0 +1,36 @@
+.wrapper{
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+/*
+.btn{
+    background: aqua;
+    border-radius: 20px;
+    height: 60px;
+    width: 200px;
+    margin:50px;
+    transition: background 1s, transform 1s, width 1s;
+}
+.btn:hover{
+    background:lime ;
+    transform: rotate(360deg);
+    width: 100px;
+}
+*/
+.circle{
+    width:100px;
+    background: pink;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px auto;
+    padding: 50px 0;
+    border-radius: 50px;
+    line-height: 0;
+    transition: 1s;
+
+}
+.circle:hover{
+    background: salmon;
+    transform: rotate(180deg);
+}
